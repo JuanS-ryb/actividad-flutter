@@ -45,8 +45,8 @@ class MainLayout extends StatelessWidget {
             ),
             // Opción Ver Segunda Página
             ListTile(
-              leading: const Icon(Icons.pages),
-              title: const Text('Ver Segunda Página'),
+              leading: const Icon(Icons.food_bank),
+              title: const Text('Comidas'),
               onTap: () {
                 Navigator.pushNamed(context, "/second");
               },
